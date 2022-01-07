@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="WebApplication2.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    
+    <%--bootstrap css--%>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <%--datatables css--%>
+    <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <%--fontawesome css--%>
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+
+    <%--custome css--%>
+    <link href="CSS/customestylesheet.css" rel="stylesheet" />
+
+    <script src="bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+    <%--bootstrap popper.js--%>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <%--bootstrap min.js--%>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+     <%--datatables css--%>
+    <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <%--datatables js--%>
+    <script src="datatables/js/jquery.dataTables.min.js"></script>
+    <style>
+body {
+  background-image: url('/images/bg6.jpg');
+}
+</style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ScriptManager ID="ScriptManager1" runat="server">
+            </asp:ScriptManager>
+            <br />
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                <ContentTemplate>
+                    <asp:Timer ID="Timer1" runat="server" Interval="10000" OnTick="Timer1_Tick">
+                    </asp:Timer>
+                    <asp:Image ID="Image1" runat="server" Height="100%" Width="100%" />
+                </ContentTemplate>
+            </asp:UpdatePanel>
+            <br />
+            <asp:Menu ID="Menu1" runat="server" Height="100px" Orientation="Horizontal" RenderingMode="List" BackColor="#333399" BorderColor="#FF0066" BorderStyle="Double" ForeColor="#FFCCFF" Width="100%">
+                <Items>
+
+                    <asp:MenuItem NavigateUrl="~/adhome.aspx" Text="HOME" Value="HOME"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/adcaretaker.aspx" Text="|| CARE TAKER" Value="|| CARE TAKER"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/adcustomers.aspx" Text="  ||CUSTOMERS" Value="||CUSTOMERS"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/advet.aspx" Text="   ||VETERINARIAN" Value="||VETERINARIAN"> </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/advaccin.aspx" Text="||VACCINE" Value="||VACCINE"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/adhomecare.aspx" Text="||HOMECARE BOOKINGS" Value="||HOMECARE BOOKINGS"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/adpetdetails.aspx" Text="  ||PET DETAILS" Value="||PET DETAILS"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/adminlogin.aspx" Text="|| Logout" Value="Logout"></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+           
+   
+
+            <br />
+            <br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
