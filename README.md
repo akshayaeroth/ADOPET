@@ -1,7 +1,26 @@
-# ADOPET
-## There’s a new kind of people we see now-a-days. The ones who will want a pet, haggle for the cheapest one and eventually abandon their old and sick dogs – pushing them out of moving cars or dumping them outside animal shelters. Next, there are those who, if they see a puppy on the street, will get it home... 
-## By this project entitled ADOPET, I want to connect those two kinds of people together. So that both of them will be satisfied. My project not only presents the key improvement of the pet care system, but also meets the needs of owners who are out for works. 
-## There are 3 types of users in this sytem - Administrator, Customers and Care takers. 
-## The customer can register, update details of pets, adopt and get services for their pets like grooming, training, booking vaccination, etc. 
-## The care taker has the responsibility to screening people who wants their services provided by ADOPET. They can view booking details, manage homecare services and vaccine bookings & edit vaccination details, 
-## The admin has the duty to control overall management such as keeping records, managing care taker, view pet gallery, view booking details and update veterinarian’s details.
+# ADOPET: Connecting Pet Lovers with Compassionate Care
+
+**About**
+
+ADOPET is a web-based platform designed to connect pet owners with qualified pet care providers. We aim to foster responsible pet ownership and improve the overall well-being of animals. 
+
+**Key Features:**
+
+* **Pet Adoption:** Connects potential adopters with shelters and rescues to find their perfect furry companion.
+* **Pet Care Services:** Offers a wide range of services, including:
+    * **Grooming:** Professional grooming services for dogs and cats.
+    * **Training:** Obedience training, behavior modification, and socialization programs.
+    * **Home Care:** In-home pet sitting, dog walking, and feeding services for busy pet owners.
+    * **Vaccination Booking:** Easy scheduling and reminders for essential vaccinations.
+* **User Roles:** 
+    * **Administrators:** Manage the platform, oversee care providers, and view overall platform statistics.
+    * **Customers:** Register pets, book services, manage pet profiles, and find adoption opportunities.
+    * **Care Providers:** Screen potential clients, manage bookings, provide services, and update service offerings.
+
+**Project Goals:**
+
+* **Promote responsible pet ownership:** Encourage adoption and discourage irresponsible pet abandonment.
+* **Provide convenient access to quality pet care services.**
+* **Build a strong community of pet lovers and professionals.**
+* **Improve animal welfare by ensuring pets receive proper care and attention.**
+
